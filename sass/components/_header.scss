@@ -1,18 +1,16 @@
 .header__contact {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   gap: 50px;
 }
 .header__container {
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-    border-bottom: 1px solid #ececec;
-  }
-  .header__navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  border-bottom: 1px solid #ececec;
+}
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
