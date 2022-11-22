@@ -11,7 +11,7 @@
     transition: background-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .team-cards__crew-social-media__item:hover {
+  &:hover,&focus {
     background-color: var(--blue-color);
     border-radius: 50%;
     --color2: var(--white-color);
@@ -19,20 +19,19 @@
     --color4: var(--white-color);
   }
   
-  .team-cards__crew-social-media {
+ 
+  .team-cards {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 30px;
+    gap: 30px;
   }
   
-  .team-cards__image {
+  
+  &__image {
     width: 270px;
     height: 270px;
   }
   
-  .team-cards__crew-name {
+  &__crew-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -42,7 +41,14 @@
     margin-top: 30px;
     margin-bottom: 10px;
   }
-  .team-cards__crew-job-posiion {
+  &__crew-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  &__crew-job-posiion {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -54,10 +60,6 @@
   }
   .crew-section {
     background-color: #f5f4fa;
-  }
-  .team-cards {
-    display: flex;
-    gap: 30px;
   }
   
   

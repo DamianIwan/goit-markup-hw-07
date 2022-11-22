@@ -1,7 +1,7 @@
 .product-card {
     position: relative;
   }
-  .product-card__banner {
+  &__banner {
     display: flex;
     justify-content: center;
     align-items: center;

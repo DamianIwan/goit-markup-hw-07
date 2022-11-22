@@ -98,6 +98,18 @@
     font-size: 14px;
     line-height: 1.71;
   }
+
+  .contanier-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  
+    
   .contanier-checkbox input {
     display: block;
     width: 16px;
@@ -148,5 +160,4 @@
   color: var(--blue-color);
 }
 
-  
   

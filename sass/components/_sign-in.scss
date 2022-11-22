@@ -1,3 +1,13 @@
+.sing-in__mail {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+
+
 .sing-in__title {
   color: var(--white-color);
   font-weight: 700;
@@ -33,7 +43,7 @@
     letter-spacing: 0.03em;
     color: var(--grey-color);
   }
-  .sing-in__mail__button {
+  &__button {
     width: 200px;
     height: 50px;
     display: flex;
@@ -52,17 +62,5 @@
     fill: var(--white-color);
   }
   
-  .sing-in__mail {
-    display: flex;
-    gap: 10px;
-  }
-  .contanier-checkbox {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: inherit;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
+  
   

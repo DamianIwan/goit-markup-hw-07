@@ -17,7 +17,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .font-navy:hover {
+  &:hover,&:focus {
     text-decoration: none;
     transition-property: color;
     transition-duration: 250ms;
@@ -40,7 +40,7 @@
   .nav-active {
     position: relative;
   }
-  .nav-active::after {
+  &::after {
     content: "";
     position: absolute;
     left: 0%;
