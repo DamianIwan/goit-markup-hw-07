@@ -1,23 +1,25 @@
 
 @import "./utils/common";
-@import "./utils/section-tittle.scss";
+@import "./utils/modal-box";
+@import "./utils/section-tittle";
+@import "./components/header-banner";
+@import "./components/header-banner_button";
 @import './components/loremips-section';
 @import "./components/logo";
-@import "./components/navy.scss";
+@import "./components/navy";
 @import './components/contact';
-@import "./components/header-banner";
-@import "./components/header-banner_button.scss";
 @import "./utils/adres";
-@import "./components/team-cards.scss";
-@import "./components/header-banner_button.scss";
-@import "./components/pofolio-list.scss";
-@import "./components/portfolio-button.scss";
+@import "./components/team-cards";
+@import "./components/header";
+@import "./components/pofolio-list";
+@import "./components/portfolio-button";
 @import "./components/team-cards";
 @import "./components/product";
+@import "./components/client";
+@import "./components/social-media";
 
 
 
 
-@import "./components/sign-in.scss";
+@import "./components/sign-in";
 @import "./components/backdrop";
-@import "./utils/modal-box.scss;";

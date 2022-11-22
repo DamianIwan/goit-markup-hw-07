@@ -3,6 +3,13 @@
     flex-direction: column;
     justify-content: flex-start;
   }
+  .socialmedia-container__item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
   
   .socialmedia__icon {
     width: 44px;
@@ -22,6 +29,17 @@
     cursor: pointer;
     transition: background-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .socialmedia-container_title {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .footer-socialmedia-icon {
+    --color3: #ffffff;
   }
   
   

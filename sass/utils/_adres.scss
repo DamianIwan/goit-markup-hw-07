@@ -10,3 +10,18 @@
     letter-spacing: 0.03em;
     color: #ffffff;
   }
+  .footer-position {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+  }
+  .footer-position li {
+    margin: 9px;
+  }
+  
+  .logo-footer {
+    margin-bottom: 20px;
+  }
+  
+  
+  

@@ -1,3 +1,8 @@
+.header__contact {
+  display: flex;
+  justify-content:space-between;
+  gap: 50px;
+}
 .header__container {
     display: flex;
     justify-content: space-between;
@@ -10,9 +15,4 @@
     justify-content: space-between;
   }
   
-  .header__contact {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-  }
   
