@@ -9,7 +9,7 @@
     background-position: center;
   }
   
-  .header-banner__shadow {
+  &__shadow {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -17,7 +17,7 @@
     justify-content: center;
     height: 600px;
   }
-  .header-banner__title {
+  &__title {
     max-width: 700px;
     font-weight: 900;
     font-size: 44px;
@@ -27,4 +27,21 @@
     text-transform: uppercase;
   
     color: #ffffff;
+  }
+  &__button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--blue-color);
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0.5rem 2.3rem;
+    border-color: var(--blue-color);
   }
