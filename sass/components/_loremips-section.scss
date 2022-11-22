@@ -1,0 +1,37 @@
+.loremips__card {
+    padding: 25px 100px;
+    background-color: #f5f4fa;
+  
+    width: 270px;
+    height: 120px;
+  }
+  .loremips__icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+  }
+  .loremips ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-left: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  .loremips__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+  }
+  .loremips__title {
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  

@@ -1,0 +1,64 @@
+.team-cards__crew-social-media__item {
+    width: 44px;
+    height: 44px;
+    background-color: (--white-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .team-cards__crew-social-media__item:hover {
+    background-color: var(--blue-color);
+    border-radius: 50%;
+    --color2: var(--white-color);
+    --color3: var(--white-color);
+    --color4: var(--white-color);
+  }
+  
+  .team-cards__crew-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .team-cards__image {
+    width: 270px;
+    height: 270px;
+  }
+  
+  .team-cards__crew-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .team-cards__crew-job-posiion {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  
+    color: var(--grey-color);
+  }
+  .crew-section {
+    background-color: #f5f4fa;
+  }
+  .team-cards {
+    display: flex;
+    gap: 30px;
+  }
+  
+  
+  

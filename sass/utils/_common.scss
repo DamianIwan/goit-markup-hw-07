@@ -1,0 +1,36 @@
+:root {
+    --blue-color: #2196f3;
+    --grey-color: #757575;
+    --white-color: #ffffff;
+    --black-color: #212121;
+  }
+  body {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: "Roboto", sans-serif;
+    color: var(--grey-color);}
+
+    .style-list {
+      list-style-type: none;
+      padding: 0px;
+    }
+    .container {
+      box-sizing: border-box;
+      display: flex;
+      max-width: 1200px;
+    
+      width: 100%;
+      align-items: center;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    .section {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+    .footer-section {
+      background-color: #2f303a;
+    }
+    .column-look {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
