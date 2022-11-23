@@ -19,7 +19,7 @@
     />
 
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
   <body>
     <header>
@@ -30,7 +30,9 @@
           >
           <nav>
             <ul class="navigation-list navy style-list">
-              <li class="navigation-list__item font-navy nav-active"></li>
+              <li class="navigation-list__item font-navy nav-active">
+                Agencja
+              </li>
               <li class="navigation-list__item font-navy">
                 <a class="font-navy" href="./portfolio.html">Portfolio</a>
               </li>
@@ -391,10 +393,10 @@
           <div class="sing-in">
             <h3 class="sing-in__title">ZAPISZ SIĘ DO NEWSLETTERA</h3>
             <div class="sing-in__mail">
-              <fieldset class="sing-in__mail__fieldset">
+              <fieldset class="sing-in__fieldset">
                 <input type="email" placeholder="E-mail" />
               </fieldset>
-              <button class="sing-in__mail__button" type="submit">
+              <button class="sing-in__button" type="submit">
                 Zapisz Się<svg width="24" height="24">
                   <use href="./images/icons.svg#send-icon"></use>
                 </svg>
@@ -414,14 +416,14 @@
         ></button>
         <h3 class="modal__header">Zostaw swoje dane w formularzu ponizej</h3>
         <form class="modal__from">
-          <fieldset class="modal__form__fieldset">
+          <fieldset class="modal__fieldset">
             <label for="username">Imie</label>
             <svg width="12" height="12">
               <use href="./images/icons.svg#user-icon"></use>
             </svg>
             <input class="input" type="text" id="username" name="username" />
           </fieldset>
-          <fieldset class="modal__form__fieldset">
+          <fieldset class="modal__fieldset">
             <label for="phone-number">Telefon</label>
             <svg width="13" height="13">
               <use href="./images/icons.svg#phone-icon"></use>
@@ -433,7 +435,7 @@
               name="phone-number"
             />
           </fieldset>
-          <fieldset class="modal__form__fieldset">
+          <fieldset class="modal__fieldset">
             <label for="email-adress">Email</label>
             <svg width="15" height="12">
               <use href="./images/icons.svg#email-icon"></use>
@@ -445,10 +447,10 @@
               name="email-adress"
             />
           </fieldset>
-          <fieldset class="modal__form__fieldset">
+          <fieldset class="modal__fieldset">
             <label for="comment">Komnetarz</label>
             <textarea
-              class="modal__form__fieldset__textaea"
+              class="modal__fieldset__textaea"
               id="comment"
               name="comment"
               placeholder="Wprowadź tekst"

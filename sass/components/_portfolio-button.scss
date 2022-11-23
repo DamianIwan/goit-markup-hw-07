@@ -27,9 +27,9 @@
 
   border-radius: 4px;
   border: none;
-}
-&__button:hover,
-&__button:focus {
+
+&:hover,
+&:focus {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -48,4 +48,4 @@
   transition-property: background-color, color, border-bottom, box-shadow;
 
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+}}

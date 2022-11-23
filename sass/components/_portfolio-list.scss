@@ -1,6 +1,6 @@
-.potfolio-list figure {
+.portfolio-list figure {
   border: 1px solid #eeeeee;
-}
+
 &:hover,
 &focus {
   cursor: pointer;
@@ -8,21 +8,31 @@
     1px 4px 6px rgba(0, 0, 0, 0.16);
   transition: box-shadow 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+}}
 
-.potfolio-list figcaption {
+.portfolio-list figcaption {
   padding-left: 24px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.potfolio-list img {
+.portfolio-list__item:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: box-shadow 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover .overlay {
+  transform: translate(0, 0);}}
+
+.portfolio-list img {
   margin-bottom: 10px;
 }
 h5 {
   margin: 0;
   padding: 0;
 }
-.box-3 {
+.portfolio-list__image {
   position: relative;
   overflow: hidden;
 }
@@ -31,7 +41,7 @@ h5 {
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
   position: absolute;
-  transform: translateY(100%);
+  transform: translateY(101%);
   will-change: transform;
   transition: transform 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -51,16 +61,13 @@ h5 {
   justify-content: center;
   align-items: center;
 }
-.potfolio-list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 27px;
-}
 
-&:hover .overlay,
-&:focus .overlay {
-  transform: translate(0, 0);
-}
+
+
 &__title {
   font-weight: 700;
   font-size: 18px;
@@ -74,7 +81,7 @@ h5 {
   letter-spacing: 0.03em;
 
   color: var(--grey-color);
-}
+}}
 figure {
   margin: 0;
   background: var(--white-color);

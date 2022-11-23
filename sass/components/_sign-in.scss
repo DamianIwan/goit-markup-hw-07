@@ -12,7 +12,7 @@
   text-transform: uppercase;
 }
 
-.sing-in__mail__fieldset {
+.sing-in__fieldset {
   display: flex;
   align-items: center;
   width: 358px;
@@ -20,9 +20,9 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: transparent;
-}
-.sing-in__mail__fieldset input {
+  background-color: transparent;}
+
+  .sing-in__fieldset input {
   width: 100%;
   margin: 0;
   background-color: transparent;
@@ -34,7 +34,7 @@
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
-&__button {
+.sing-in__button {
   width: 200px;
   height: 50px;
   display: flex;

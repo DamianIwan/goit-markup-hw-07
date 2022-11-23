@@ -10,7 +10,7 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 &__item:hover,
 &__item:focus {
@@ -22,7 +22,7 @@
   letter-spacing: 0.02em;
   --color4: var(--blue-color);
   text-decoration: none;
-}
+}}
 
 .contact-icon-mail {
   width: 16px;

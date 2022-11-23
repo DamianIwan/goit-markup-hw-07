@@ -10,20 +10,20 @@
     cursor: pointer;
     transition: background-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  
   &:hover,&focus {
     background-color: var(--blue-color);
     border-radius: 50%;
     --color2: var(--white-color);
     --color3: var(--white-color);
     --color4: var(--white-color);
-  }
+  }}
   
  
   .team-cards {
     display: flex;
     gap: 30px;
-  }
+  
   
   
   &__image {
@@ -57,7 +57,7 @@
     margin-bottom: 16px;
   
     color: var(--grey-color);
-  }
+  }}
   .crew-section {
     background-color: #f5f4fa;
   }
