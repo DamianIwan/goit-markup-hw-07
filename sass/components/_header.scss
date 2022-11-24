@@ -1,16 +1,21 @@
-.header__contact {
+
+.header{
+
+
+
+&__contact {
   display: flex;
   justify-content: space-between;
   gap: 50px;
 }
-.header__container {
+&__container {
   display: flex;
   justify-content: space-between;
   margin-left: auto;
   border-bottom: 1px solid #ececec;
 }
-.header__navigation {
+&__navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+}}

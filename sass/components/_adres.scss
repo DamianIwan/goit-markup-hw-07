@@ -14,10 +14,10 @@
   display: flex;
   flex-direction: row;
   gap: 70px;
-}
-.footer-position li {
+
+& li {
   margin: 9px;
-}
+}}
 
 .logo-footer {
   margin-bottom: 20px;

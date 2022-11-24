@@ -1,4 +1,9 @@
-.portfolio-filtr ul {
+
+.portfolio-filtr{
+
+
+
+& ul {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -6,7 +11,7 @@
   margin-bottom: 56px;
 }
 
-.portfolio-filtr__button {
+&__button {
   width: 7rem;
   height: 2rem;
   font-family: inherit;
@@ -48,4 +53,4 @@
   transition-property: background-color, color, border-bottom, box-shadow;
 
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}}
+}}}

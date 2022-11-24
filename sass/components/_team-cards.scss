@@ -1,36 +1,35 @@
-.team-cards__crew-social-media__item {
-    width: 44px;
-    height: 44px;
-    background-color: (--white-color);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    transition: background-color 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-  &:hover,&focus {
+.crew-social-media__item {
+  width: 44px;
+  height: 44px;
+  background-color: (--white-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background-color 250ms;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &focus {
     background-color: var(--blue-color);
     border-radius: 50%;
     --color2: var(--white-color);
     --color3: var(--white-color);
     --color4: var(--white-color);
-  }}
-  
- 
-  .team-cards {
-    display: flex;
-    gap: 30px;
-  
-  
-  
+  }
+}
+
+.team-cards {
+  display: flex;
+  gap: 30px;
+
   &__image {
     width: 270px;
     height: 270px;
   }
-  
+
   &__crew-name {
     font-weight: 500;
     font-size: 16px;
@@ -41,13 +40,7 @@
     margin-top: 30px;
     margin-bottom: 10px;
   }
-  &__crew-social-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 30px;
-  }
+ 
   &__crew-job-posiion {
     font-size: 16px;
     line-height: 1.18;
@@ -55,12 +48,18 @@
     letter-spacing: 0.03em;
     margin-top: 10px;
     margin-bottom: 16px;
-  
+
     color: var(--grey-color);
-  }}
-  .crew-section {
-    background-color: #f5f4fa;
   }
-  
-  
-  
+  &__crew-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    
+  }
+}
+.crew-section {
+  background-color: #f5f4fa;
+}

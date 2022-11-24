@@ -11,10 +11,10 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.font-navy:hover,
-.font-navy:focus {
+
+&:hover,
+&:focus {
   text-decoration: none;
   transition-property: color;
   transition-duration: 250ms;
@@ -26,7 +26,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
+}}
 .navy {
   display: flex;
   justify-content: center;
